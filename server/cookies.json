@@ -1,0 +1,62 @@
+[
+    {
+        "name": "mybb[lastvisit]",
+        "value": "1720232966",
+        "domain": "onniforums.com",
+        "path": "/",
+        "expires": 1751768966,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "sid",
+        "value": "2723ae9c51b34867d3f8bc006443ede9",
+        "domain": "onniforums.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "mybb[lastactive]",
+        "value": "1720232997",
+        "domain": "onniforums.com",
+        "path": "/",
+        "expires": 1751768997,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "loginattempts",
+        "value": "1",
+        "domain": "onniforums.com",
+        "path": "/",
+        "expires": 1751768997,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    },
+    {
+        "name": "mybbuser",
+        "value": "46714_1M6yQFsv8HQud3u801OyHBlL9k83UuW1iAXbjSJ5c6MTRxMEZ1",
+        "domain": "onniforums.com",
+        "path": "/",
+        "expires": 1751768997,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "onni_fy",
+        "value": "1",
+        "domain": "onniforums.com",
+        "path": "/",
+        "expires": 1751768997,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+    }
+]
