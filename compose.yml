@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    networks:
+      - dark_network
+    ports:
+      - "8000:8000"
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend_app
+    networks:
+      - dark_network
+    ports:
+      - "5173:5173"
+
+networks:
+  dark_network:
+    driver: bridge
