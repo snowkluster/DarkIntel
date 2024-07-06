@@ -26,6 +26,19 @@ Then in the [root](.) folder run
 
 `npm run dev` 
 
+## Docker 
+
+If you have Docker installed you can quick start the application by running
+
+```sh
+./start.sh
+```
+
+## Endpoints
+
+Frontend is avaliable at [localhost:5173](http://localhost:5173)
+
+Backend is avaliable at [localhost:8000](http://localhost:8000)
 ## Note
 
 The `cookies.json` are account cookies from one of these cyber crime forums that I was able to extract and his required to scrape the website
