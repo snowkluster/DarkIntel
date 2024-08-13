@@ -34,6 +34,8 @@ If you have Docker installed you can quick start the application by running
 ./start.sh
 ```
 
+> **_NOTE:_** Docker script is broken. too lazy to fix. maybe later
+
 ## Endpoints
 
 Frontend is avaliable at [localhost:5173](http://localhost:5173)

@@ -1,4 +1,6 @@
-FROM python:3.9-slim
+FROM ubuntu
+
+RUN apt-get update -y && apt-get install python3-pip -y
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
@@ -10,6 +12,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
+
+RUN playwright install
 
 EXPOSE 8000
 
